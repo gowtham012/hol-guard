@@ -3,7 +3,7 @@
   "id": "mcp.pinpoint",
   "version": "1.0.0",
   "name": "Pinpoint",
-  "description": "Point at an element in your running app (browser, iOS Simulator or Android emulator), say what should change, and your coding agent gets the selector, styles, component, source file:line (also on minified builds via source maps) and a cropped screenshot. Local-only: the bridge listens on 127.0.0.1. Reading, re-checking, replying to and resolving notes is allowed; clearing every note stays on Review. Off until you turn it on.",
+  "description": "Point at an element in your running app (browser, iOS Simulator or Android emulator), say what should change, and your coding agent gets the selector, styles, component, source file:line (also on minified builds via source maps) and a cropped screenshot. The bridge listens only on 127.0.0.1; notes and screenshots go to the coding agent you connect, which may send them to its hosted model. Reading, replying to and resolving notes is allowed; clearing all notes stays on Review. Off until you turn it on.",
   "trustClass": "external",
   "activation": "opt-in",
   "publisher": {
